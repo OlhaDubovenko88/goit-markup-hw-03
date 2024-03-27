@@ -231,22 +231,23 @@ padding: 32px 0px;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 
 .our-portfolio-item{
     width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc
-    row-gap: 48px;
-}
+   }
 .our-portfolio-head-text{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-    padding: 32px 16px
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .our-portfolio-list{
@@ -255,7 +256,7 @@ padding: 32px 0px;
     align-items:center;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 59px;
+    row-gap: 48px;
     padding: 0;
     margin-right: auto;
 }
@@ -267,7 +268,7 @@ padding: 32px 0px;
     letter-spacing: 0.02em;
     background-color: #ffffff;
     color: #2e2f42;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .our-portfolio-text{
     font-weight: 400;
