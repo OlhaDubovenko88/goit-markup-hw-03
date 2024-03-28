@@ -150,13 +150,13 @@ border-bottom: 1px solid #e7e9fc;
 }
 .feature-item{
 width: calc((100% - 3*24px) / 4);
-padding-left: 0;
-margin: 0;
 }
 .feature-list{
     list-style: none;
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 
 }
 .feature-item-head{
@@ -184,6 +184,8 @@ margin: 0;
     align-items: center;
     gap: 24px;
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .our-team-head{
@@ -205,9 +207,7 @@ padding: 32px 0px;
 .our-team-item{
     background-color: #ffffff;
     width: calc((100% - 3*24px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    padding-left: 0;
-    margin: 0;
+    border-radius: 0px 0px 4px 4px;  
 }
 
 .our-team-name{
